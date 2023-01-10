@@ -1,0 +1,16 @@
+ipv4 access-list IPv4_VTY_ACCESS
+ 10 permit ipv4 10.15.7.64/27 any
+ 11 permit ipv4 10.15.5.64/27 any
+!
+username otn
+ group root-lr
+ secret 10 $6$C87Is0G03iEV9s0.$9s7hP/9LTT7sd4PqNbVBeaSNOsMyv5Suhe0TJ/LAeBxW0K1KQ5kWUQ1zuzNLkw7DZWq.rRe.33oR99HHrlyHK/
+!
+username admin
+ group root-lr
+ group cisco-support
+ secret 10 $6$/JlF5JQo/5R5....$QhXdr5SWfx89vJO0sMngPnuHZEPsTeRPiYcqvI2U2YjitTnrwcWIDneLdOC5zesBUkKGHZQKOC01u.lOJRY3s1
+!
+username jahangir
+ group root-lr
+ secret 10 $6$ZMHmXqYw67D0X...$CI8mecSDqM0ugIBdewAL9b07AUp5xXd72qjm3c2FMBbdLBOjgyeMzxxjdCJ/brRfoN2EmGjS8KBvUL/dTpuRJ1

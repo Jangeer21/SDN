@@ -4,15 +4,13 @@ This is a script to perform automated monitoring & failover of a FirePower appli
 
 With work from home being more of a thing recently, having a reliable internet connection has suddenly become more important. I wrote this to automatically fail over my home internet connection to an external LTE modem if there were any connectivity issues (Which happens more often than one would hope).
 
-Additional info in my [blog post](https://0x2142.com/cisco-firepower-automating-cellular-failover/)
-
 ## What it does
 
 There are two modules to this script: 
 
 `pathmonitor.py` - This script performs ping checks of a defined external network target. It will measure response time & packet loss, then make a decision on whether to fail over traffic to a secondary internet provider based on user-defined thresholds
 
-`firepower.py` - This module handles all of the API connectivity to FirePower FDM. This contains all of the logic to create & delete network objects, route objects, etc.
+`firepower.py` - This module handles all of the API connectivity to FirePower FMC. This contains all of the logic to create & delete network objects, route objects, etc.
 
 ## Installation
 
@@ -34,7 +32,7 @@ The following options must be configured prior to use:
 
 |  | Firepower Config Options |
 |--------|-----------------------------------------------------------|
-| address | IP Address or host name of the FDM appliance             |
+| address | IP Address or host name of the FMC appliance             |
 | username | Username that will be used for API access               |
 | password | Password that will be used for API access               |
 | failover_route | Route & prefix of traffic to push over backup gateway (ex. 0.0.0.0/0)|

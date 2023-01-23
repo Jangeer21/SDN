@@ -1,0 +1,204 @@
+---
+testbed:
+    name: Core_Testbed
+    credentials:
+        default:
+            username: jahangir
+            password: Teconfio@22
+  
+  
+devices:
+  AZT-PE-1:
+    type: router
+    os: iosxr
+    platform: asr9k 
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.200.201.7
+  
+  A74-PE-1:
+    type: iosxr
+    os: iosxr
+    connections:
+      vty:
+        protocol: ssh
+        ip: 10.200.201.8
+
+  BTC-PE-01:
+    type: iosxr
+    os: iosxr
+    platform: asr9k
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.200.201.2
+     
+
+  BTC-PE-02:
+    type: iosxr
+    os: iosxr
+    connections:
+      vty:
+        protocol: ssh
+        ip: 10.200.201.4
+
+  BHQ-PE-1:
+    type: iosxr
+    os: iosxr
+    connections:
+      vty:
+        protocol: ssh
+        ip: 10.200.201.1
+  
+  BHQ-PE-2:
+    type: iosxr
+    os: iosxr
+    connections:
+      vty:
+        protocol: ssh
+        ip: 10.200.201.3
+
+  CS3-PE-1:
+    type: iosxr
+    os: iosxr
+    connections:
+      vty:
+        protocol: ssh
+        ip: 10.200.201.5
+
+  CS3-PE-2:
+    type: iosxr
+    os: iosxr
+    connections:
+      vty:
+        protocol: ssh
+        ip: 10.200.201.6
+
+  GNJ-PE-1:
+    type: iosxr
+    os: iosxr
+    connections:
+      vty:
+        protocol: ssh
+        ip: 10.200.201.10
+
+  GNJ-PE-2:
+    type: iosxr
+    os: iosxr
+    connections:
+      vty:
+        protocol: ssh
+        ip: 10.200.201.11
+
+  AGF-PE-1:
+    type: iosxr
+    os: iosxr
+    connections:
+      vty:
+        protocol: ssh
+        ip: 10.200.201.12
+
+  AGF-PE-2:
+    type: iosxr
+    os: iosxr
+    connections:
+      vty:
+        protocol: ssh
+        ip: 10.200.201.13
+  
+  SVN-PE-1:
+    type: iosxr
+    os: iosxr
+    connections:
+      vty:
+        protocol: ssh
+        ip: 10.200.201.20
+
+  SVN-PE-2:
+    type: iosxr
+    os: iosxr
+    connections:
+      vty:
+        protocol: ssh
+        ip: 10.200.201.21
+
+  SVN-PE-2:
+    type: iosxr
+    os: iosxr
+    connections:
+      vty:
+        protocol: ssh
+        ip: 10.200.201.21
+
+  KDM-PE-1:
+    type: iosxr
+    os: iosxr
+    connections:
+      vty:
+        protocol: ssh
+        ip: 10.200.201.22
+
+  KDM-PE-2:
+    type: iosxr
+    os: iosxr
+    connections:
+      vty:
+        protocol: ssh
+        ip: 10.200.201.23
+
+  NCV-PE-1:
+    type: iosxr
+    os: iosxr
+    connections:
+      vty:
+        protocol: ssh
+        ip: 10.200.201.30
+
+  LNK-PE-1:
+    type: iosxr
+    os: iosxr
+    connections:
+      vty:
+        protocol: ssh
+        ip: 10.200.201.40
+
+  GUB-PE-1:
+    type: iosxr
+    os: iosxr
+    connections:
+      vty:
+        protocol: ssh
+        ip: 10.200.201.50
+  
+  SHK-PE-1:
+    type: iosxr
+    os: iosxr
+    connections:
+      vty:
+        protocol: ssh
+        ip: 10.200.201.60
+
+  ZGL-PE-1:
+    type: iosxr
+    os: iosxr
+    connections:
+      vty:
+        protocol: ssh
+        ip: 10.200.201.62
+
+  ZGL-PE-2:
+    type: iosxr
+    os: iosxr
+    connections:
+      vty:
+        protocol: ssh
+        ip: 10.200.201.63
+
+  KHD-PE-1:
+    type: iosxr
+    os: iosxr
+    connections:
+      vty:
+        protocol: ssh
+        ip: 10.200.201.70

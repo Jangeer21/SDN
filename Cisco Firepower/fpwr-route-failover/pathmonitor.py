@@ -1,9 +1,16 @@
+#!/usr/bin/python
 import firepower
 from pythonping import ping
 import sys
 from time import sleep
 import json
 from pathlib import Path
+import datetime
+
+now = datetime.datetime.now()
+
+with open("task_log.txt", "a") as f:
+    f.write("Script executed via task scheduler at: " + str(now)[:-7] + "\n")
 
 ####### Option load:
 optionFile = Path(__file__).parent / './options.json'
@@ -54,10 +61,10 @@ def calculateLoss(result):
 def checkMetrics(response, loss):
     # Simple check if our responses were under the expected thresholds
     if response >= MAX_LATENCY or loss >= MAX_LOSS:
-        print("Loss/Latency violate thresholds.")
+        print("\n *** LOSS/LATENCY VIOLATE THRESHOLDS!!! *** \n")
         return True
     else:
-        print("Loss/Latency within thresholds.")
+        print("\n *** LOSS/LATENCY WITHIN THRESHOLDS *** \n")
         return False
 
 
@@ -72,13 +79,13 @@ def run():
     if failover is True:
         result = fw.addRoute()
         if result is True:
-            print("TRAFFIC SUCCESSFULLY FAILED OVER TO BACKUP CONNECTION")
+            print(" ### TRAFFIC SUCCESSFULLY FAILED OVER TO BACKUP CONNECTION ### \n")
     # IF loss/latency is healthy,
     # remove default route to second provider
     elif failover is False:
         result = fw.delRoute()
         if result is True:
-            print("TRAFFIC SUCCESSFULLY ROUTED BACK TO PRIMARY CONNECTION")
+            print(" ### TRAFFIC SUCCESSFULLY ROUTED BACK TO PRIMARY CONNECTION ### \n")
 
 
 if __name__ == "__main__":

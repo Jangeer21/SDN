@@ -1,0 +1,9 @@
+{
+   "DNA" : 
+   {
+    "address" : "sandboxdnac2.cisco.com",
+    "port" : 443,
+    "username" : "devnetuser",
+    "password" : "Cisco123!"
+   } 
+}

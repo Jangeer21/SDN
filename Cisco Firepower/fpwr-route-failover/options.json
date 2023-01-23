@@ -1,16 +1,17 @@
 {
-    "pingtest": {
-      "target": "8.8.8.8",
-      "count": 10,
-      "max_latency": 2000,
-      "max_loss": 20
-    },
-    "firepower": {
-      "address": "172.16.5.1",
-      "username": "admin",
-      "password": "P@ssword123!",
-      "failover_route": "0.0.0.0/0",
-      "failover_gateway": "192.168.5.10",
-      "failover_interface": "Ethernet1/2"
-    }
+  "pingtest": {
+    "target": "8.8.8.8",
+    "count": 10,
+    "max_latency": 500,
+    "max_loss": 20
+  },
+  "firepower": {
+    "address": "10.0.100.30",
+    "username": "",
+    "password": "",
+    "failover_route": "0.0.0.0/0",
+    "failover_gateway": "192.168.5.10/32", 
+    "failover_interface": "Ethernet1/3"
   }
+}
+

@@ -1,0 +1,36 @@
+---
+testbed:
+    name: PreAgg_Testbed
+    credentials:
+        default:
+            username: admin
+            password: admin1234
+
+
+devices:
+  BBK7024-PA-1:
+    type: router
+    os: iosxr
+    platform: ncs5k
+    connections:
+      vty:
+        protocol: ssh
+        ip: 10.200.202.4
+
+  BBK2441-PA-1:
+    type: router
+    os: iosxr
+    platform: ncs5k
+    connections:
+      vty:
+        protocol: ssh
+        ip: 10.200.202.12
+
+  BBK2441-PA-2:
+    type: router
+    os: iosxr
+    platform: ncs5k
+    connections:
+      vty:
+        protocol: ssh
+        ip: 10.200.202.13

@@ -1,0 +1,743 @@
+devices:
+  ABS0147-PA-1:
+    connections:
+      cli:
+        ip: 10.200.202.50
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  ABS0147-PA-2:
+    connections:
+      cli:
+        ip: 10.200.202.51
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  ABS2139-PA-1:
+    connections:
+      cli:
+        ip: 10.200.202.10
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  ABS2139-PA-2:
+    connections:
+      cli:
+        ip: 10.200.202.11
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  ABS3702-PA-1:
+    connections:
+      cli:
+        ip: 10.200.202.16
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  ABS3702-PA-2:
+    connections:
+      cli:
+        ip: 10.200.202.17
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  ABS5503-PA-1:
+    connections:
+      cli:
+        ip: 10.200.202.52
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  ABS6067-PA-1:
+    connections:
+      cli:
+        ip: 10.200.202.14
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  ABS6067-PA-2:
+    connections:
+      cli:
+        ip: 10.200.202.15
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  ABS7030-PA-1:
+    connections:
+      cli:
+        ip: 10.200.202.18
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  ABS7030-PA-2:
+    connections:
+      cli:
+        ip: 10.200.202.19
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  BBK0015-PA-1:
+    connections:
+      cli:
+        ip: 10.200.202.26
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  BBK0015-PA-2:
+    connections:
+      cli:
+        ip: 10.200.202.27
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  BBK1065-PA-1:
+    connections:
+      cli:
+        ip: 10.200.202.24
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  BBK1065-PA-2:
+    connections:
+      cli:
+        ip: 10.200.202.25
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  BBK1763-PA-1:
+    connections:
+      cli:
+        ip: 10.200.202.40
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  BBK1763-PA-2:
+    connections:
+      cli:
+        ip: 10.200.202.41
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  BBK2333-PA-1:
+    connections:
+      cli:
+        ip: 10.200.202.34
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  BBK2333-PA-2:
+    connections:
+      cli:
+        ip: 10.200.202.35
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  BBK2441-PA-1:
+    connections:
+      cli:
+        ip: 10.200.202.12
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  BBK2441-PA-2:
+    connections:
+      cli:
+        ip: 10.200.202.13
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  BBK2969-PA-1:
+    connections:
+      cli:
+        ip: 10.200.202.44
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  BBK2969-PA-2:
+    connections:
+      cli:
+        ip: 10.200.202.45
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  BBK3871-PA-1:
+    connections:
+      cli:
+        ip: 10.200.202.6
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  BBK3871-PA-2:
+    connections:
+      cli:
+        ip: 10.200.202.7
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  BBK3883-PA-1:
+    connections:
+      cli:
+        ip: 10.200.202.8
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  BBK3883-PA-2:
+    connections:
+      cli:
+        ip: 10.200.202.9
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  BBK4247-PA-1:
+    connections:
+      cli:
+        ip: 10.200.202.22
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  BBK4247-PA-2:
+    connections:
+      cli:
+        ip: 10.200.202.23
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  BBK4867-PA-1:
+    connections:
+      cli:
+        ip: 10.200.202.46
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  BBK4867-PA-2:
+    connections:
+      cli:
+        ip: 10.200.202.47
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  BBK5013-PA-1:
+    connections:
+      cli:
+        ip: 10.200.202.36
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  BBK5013-PA-2:
+    connections:
+      cli:
+        ip: 10.200.202.37
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  BBK6203-PA-1:
+    connections:
+      cli:
+        ip: 10.200.202.28
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  BBK6203-PA-2:
+    connections:
+      cli:
+        ip: 10.200.202.29
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  BBK6245-PA-1:
+    connections:
+      cli:
+        ip: 10.200.202.30
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  BBK6245-PA-2:
+    connections:
+      cli:
+        ip: 10.200.202.31
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  BBK7020-PA-1:
+    connections:
+      cli:
+        ip: 10.200.202.32
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  BBK7020-PA-2:
+    connections:
+      cli:
+        ip: 10.200.202.33
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  BBK7022-PA-1:
+    connections:
+      cli:
+        ip: 10.200.202.20
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  BBK7022-PA-2:
+    connections:
+      cli:
+        ip: 10.200.202.21
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  BBK7024-PA-1:
+    connections:
+      cli:
+        ip: 10.200.202.4
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  BBK7024-PA-2:
+    connections:
+      cli:
+        ip: 10.200.202.5
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  BBK7025-PA-1:
+    connections:
+      cli:
+        ip: 10.200.202.2
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  BBK7025-PA-2:
+    connections:
+      cli:
+        ip: 10.200.202.3
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  BBK7029-PA-1:
+    connections:
+      cli:
+        ip: 10.200.202.42
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  BBK7029-PA-2:
+    connections:
+      cli:
+        ip: 10.200.202.43
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  BBK7059-PA-1:
+    connections:
+      cli:
+        ip: 10.200.202.0
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  BBK7059-PA-2:
+    connections:
+      cli:
+        ip: 10.200.202.1
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  BBK7062-PA-1:
+    connections:
+      cli:
+        ip: 10.200.202.38
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  BBK7062-PA-2:
+    connections:
+      cli:
+        ip: 10.200.202.39
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  BBK7725-PA-1:
+    connections:
+      cli:
+        ip: 10.200.202.48
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
+  BBK7725-PA-2:
+    connections:
+      cli:
+        ip: 10.200.202.49
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DocKQwpbCmMKa}'
+    os: iosxr
+    platform: ncs5k
+    type: router
